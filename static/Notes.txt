@@ -1,0 +1,4 @@
+This directory will be where any css or images go
+
+Here is a helpful link for creating CSS
+https://www.tutorialspoint.com/online_css_editor.php
