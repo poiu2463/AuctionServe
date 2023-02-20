@@ -1,6 +1,8 @@
 # AuctionServe
 Software to facilitate Auctions the Easy Way
 
+The Homepage can be viewed here: https://poiu2463.wixsite.com/auctionserve
+
 ## Dependencies
 Below is a List of Dependencies that this project requires. None of these are needed if you are going to run this as a client since the installation of these dependencies will be handled by the installer.
 
