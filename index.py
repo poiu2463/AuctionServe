@@ -1,10 +1,13 @@
 #!/usr/bin/env python
-import os
+
+'''
+This is the index.py page which should handle the routing and launching of the actual application.
+We will split this up as needed into smaller subfiles to allow for better readability.
+'''
 
 import flask
 
 # Create the application.
-# template_dir = os.path.abspath('src-backend/templates')
 APP = flask.Flask(__name__)
 
 
