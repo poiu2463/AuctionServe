@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+:root {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(0, 174, 255), rgb(21, 255, 0));
+    background-repeat: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#container {
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 40px;
+    border-radius: 12px;
+    margin: 50px 75px;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 30px;
+    justify-content: center;
+}
+
+.form-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form input {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 4px;
+    font-weight: 300;
+    outline: none;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    max-width: 350px;
+}
+
+input .input-field {
+    border: 1px solid black;
+}
+
+form input:hover,
+form input:focus {
+    border-bottom: 2px solid rgba(255, 255, 255, .9);
+    border-radius: 5%;
+}
+
+form input::placeholder {
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 5px;
+    margin-left: 10px;
+}
+
+#submit {
+    width: 200px;
+    padding: 20px 40px;
+    box-shadow: 0 0 15px 4px rgba(39, 39, 39, 0.685);
+    background-color: rgb(27, 255, 27);
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+#submit:hover {
+    background-color: rgb(66, 201, 66);
+    color: rgb(27, 255, 27);
+    transform: scale(1.1);
+}
+
+.form-group p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.form-group p a {
+    color: rgb(225, 225, 225);
+    font-weight: 100;
+    font-size: 18px;
+}
