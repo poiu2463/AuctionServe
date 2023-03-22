@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3fa93a633f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+
+    <title>Login & Registration Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="forms">
+
+            <!-- Login Form -->
+            <div class="form login">
+                <span class="title">Login</span>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" required>
+                        <button type="button" class="icon-btn">
+                            <i class="fa-sharp fa-regular fa-eye fa-2xl" style="color: #86f756;"></i>
+                            <i class="fa-sharp fa-regular fa-eye-slash fa-2xl" style="color: #86f756; display: none;"></i>
+                        </button>
+                    </div>
+                    <div class="submit-button">
+                        <input type="submit" value="Login" id="login-submit">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text signup-link">Signup Now</a>
+                    </span>
+                </div>
+            </div>
+
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registration</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Create a password" required>
+                        <button type="button" class="icon-btn">
+                            <i class="fa-sharp fa-regular fa-eye fa-2xl" style="color: #86f756;"></i>
+                            <i class="fa-sharp fa-regular fa-eye-slash fa-2xl" style="color: #86f756; display: none;"></i>
+                        </button>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirm a password" required>
+                        <button type="button" class="icon-btn">
+                            <i class="fa-sharp fa-regular fa-eye fa-2xl" style="color: #86f756;"></i>
+                            <i class="fa-sharp fa-regular fa-eye-slash fa-2xl" style="color: #86f756; display: none;"></i>
+                        </button>
+                    </div>
+                    <div class="submit-button">
+                        <input type="submit" value="Signup">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Already a member?
+                    <a href="#" class="text login-link">Login Now</a>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
