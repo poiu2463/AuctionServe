@@ -1,0 +1,10 @@
+{
+  "mysql_connection": {
+    "hostname": "localhost",
+    "ipv4": "127.0.0.1",
+    "ipv6": "::1",
+    "user": "root",
+    "password": "sample_password"
+  }
+  "debug" : True
+}
